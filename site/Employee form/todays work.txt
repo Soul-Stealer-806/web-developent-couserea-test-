@@ -1,0 +1,8 @@
+first name -text
+last name - text 
+mob no. - text 
+gender - radio button 
+designation -dropdown 
+id proof - checkbox -{pan card , adhar card , passport photo ,licence}
+dob-text
+doj - text
