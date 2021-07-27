@@ -1,5 +1,6 @@
 body{
-    background-color:blanchedalmond;
+    
+    background-color:beige;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
 }
@@ -10,6 +11,24 @@ h1{
 }
 p{
     font:oblique;
-    font-size: medium;
+    font: size 1.3em;;
+
     
 }
+input{font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+    
+
+
+  
+    
+    
