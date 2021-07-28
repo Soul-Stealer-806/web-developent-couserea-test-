@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jsbasics</title>
+
+    </head>
+    <body>
+        <!--<h2>Enter the no. of entries</h2>
+        <input type="text" name="ent" id="ent" value="">
+        <input  type="submit" name="GA" id="GA" value="Go Ahead" onclick="first()" ><br>-->
+              
+        <p id="par1">
+            <h2>Entries are:</h2>
+            
+            <input type="button" name="add" id="add" value="Add" onclick="addtextfield()">
+        <p id="par">
+                
+            </p>
+        
+            <input  type="submit" name="sub" id="sub" value="Save" onclick="display()" ><br>
+            <label id="lbl"></label>
+        </p>
+    </body>
+    <script>
+        
+        function addtextfield()
+        {
+            document.getElementById("par").innerHTML+="<br><input type=\"text\" name=\"txt\" id=\"txt\" value=\"\"> <br>";
+        }
+        function display()
+        {
+            
+            var txt = document.getElementById("txt").value;
+            var old_data=document.getElementById("lbl").innerHTML;
+            document.getElementById("lbl").innerHTML= old_data + "<br>" + txt ;
+            //document.getElementById('txt').value = '';
+        }
+        /*function first()
+        {
+            while( var i=document.getElementById("GA").value!==0)
+            {
+                addtextfiled();
+            }
+        }*/
+
+    </script>
+</html>
