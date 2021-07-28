@@ -30,10 +30,17 @@
         function display()
         {
             
-            var txt = document.getElementById("txt").value;
+                var element = document.getElementsByName("txt");
+                var values= [];
+                for(var i=0; i<element.length; i++) {
+                    values[i] = element[i].value;
+
+                }
+                newValue= values.join('<br>')
+            /*var txt = document.getElementById("txt").value;*/
             var old_data=document.getElementById("lbl").innerHTML;
-            document.getElementById("lbl").innerHTML= old_data + "<br>" + txt ;
-            //document.getElementById('txt').value = '';
+            document.getElementById("lbl").innerHTML= old_data + "<br>" + newValue ;
+            document.getElementsByName('txt').value = '';
         }
         /*function first()
         {
